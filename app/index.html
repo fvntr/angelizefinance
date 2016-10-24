@@ -61,14 +61,27 @@
         </ul> -->
         </div>
         <div class="about-container">
-         <a id="about">This is the Facebook ad example I want to link to.</a>
+         <p id="about">The Angelize Team:</p>
+         <div class="team">
+          <p><b>Deep Datta</b><p> Product Manager</p>
+         </div>
+         <div class="team">
+          <p><b>David Sepulveda</b></p> Business Consultant</p>
+         </div>
+         <div class="team">
+          <p><b>Felipe Ventura</b></p> Software Engineer</p>
+         </div>
         </div>
-        <div class="contact-container">
-         <a id="contact">Send us an email!</a>
-           <form action="https://formspree.io/phiven@gmail.com" method="POST">
-              <input type="text" name="name">
-              <input type="email" name="_replyto">
-              <input type="submit" value="Send">
+        <div class="contact-container col-sm-offset-4">
+         <h2 id="contact">Send us your email!</h2>
+           <form class="form-group" action="https://formspree.io/phiven@gmail.com" method="POST">
+              <label for="name">Your Name</label>
+              <input class="form-control" type="text" name="name">
+              <label for="email">Your Email Address</label>
+              <input class="form-control" type="email" name="_replyto">
+              <label for="email">Message</label>
+              <input class="form-control message" type="text" name="message">
+              <input class="form-control" type="submit" value="Send">
           </form>
         </div>
       </div>

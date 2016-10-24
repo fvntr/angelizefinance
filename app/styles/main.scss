@@ -113,9 +113,24 @@ body {
     background-size: cover;
   }
 
+  .about-container {
+    border-bottom: 40px;
+  }
+  .contact-container {
+    border-bottom: 40px;
+  }
+
+  .form-control{
+    width: 33%;
+    margin-bottom: 20px;
+  }
 
   .jumbotron p {
     font-size: 17px;
+  }
+  .message {
+    height: 100px;
+    width: 300px;
   }
 }
 
